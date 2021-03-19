@@ -1,0 +1,82 @@
+body {
+    background-color: #e8e8e8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+.dark-bg {
+    background-color: #3b3b3b;
+}
+
+h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    background-color: #fff44f;
+    padding: 5px 15px;
+}
+
+p span {
+    font-size: 38px;
+    text-transform: capitalize;
+    line-height: 38px;
+}
+
+.title span {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+}
+
+.title {
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 30px;
+}
